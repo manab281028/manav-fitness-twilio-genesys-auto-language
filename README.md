@@ -11,7 +11,9 @@ A Genesys Cloud CX Architect inbound-call example that uses the caller's phone n
 
 ## Call flow
 
-![Manav Fitness Center - AI Call Flow](docs/manav-fitness-auto-language-flow.png)
+## Call flow
+
+![Manav Fitness Center AI Call Flow](Manav%20Fitness%20Center%20Smart%20Call%20Flow.png)
 
 ## Repository contents
 
