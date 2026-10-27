@@ -11,9 +11,20 @@ A Genesys Cloud CX Architect inbound-call example that uses the caller's phone n
 
 ## Call flow
 
-## Call flow
-
-![Manav Fitness Center - AI Call Flow](docs/screenshots/manav-fitness-auto-language-flow.png)
+```mermaid
+flowchart TD
+    A[Incoming call] --> B[Update Data: normalize Call.Ani]
+    B --> C[Call Data Action: Twilio Phone Number Lookup]
+    C -->|Success| D{country_code}
+    D -->|US| E[Set Language: en-us]
+    D -->|IN| F[Set Language: hi-in]
+    D -->|Other| G[Set Language: en-us]
+    C -->|Failure or timeout| G
+    E --> H[Play greeting in selected language]
+    F --> H
+    G --> H
+    H --> I[Main menu and queue routing]
+```
 
 ## Repository contents
 
