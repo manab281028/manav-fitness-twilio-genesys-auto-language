@@ -1,0 +1,7 @@
+{
+  "type": "object",
+  "properties": {
+    "country_code": { "type": "string" },
+    "valid": { "type": "boolean" }
+  }
+}

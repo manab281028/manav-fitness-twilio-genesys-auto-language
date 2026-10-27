@@ -1,0 +1,10 @@
+{
+  "call_forwarding": null,
+  "caller_name": null,
+  "calling_country_code": "1",
+  "country_code": "US",
+  "national_format": "(415) 555-2671",
+  "phone_number": "+14155552671",
+  "valid": true,
+  "validation_errors": []
+}
